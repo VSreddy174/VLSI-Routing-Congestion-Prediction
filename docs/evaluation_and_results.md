@@ -8,10 +8,10 @@ The most significant finding of this study is the inherent mathematical trade-of
 
 This trade-off is visually evident when comparing the best predictions from the regression-focused and classification-focused models.
 
-![Exp 2 Best Prediction - High SSIM](images/pred_best_exp2.jpg)
+![Exp 2 Best Prediction - High SSIM](images/pred_best_exp2.png)
 *Figure 1: Experiment 2 (Weighted L1) Prediction. The model accurately draws the structural layout of the routing demand, resulting in an exceptionally high SSIM (>0.92). However, it smooths over the extreme peaks, failing to trigger alarms for actual routing failures.*
 
-![Exp 5 Best Prediction - High F1](images/pred_best_exp5.jpg)
+![Exp 5 Best Prediction - High F1](images/pred_best_exp5.png)
 *Figure 2: Experiment 5 (Binary Pivot) Prediction. By shifting to a weighted classification task, the structural beauty of the prediction degrades (SSIM drops below 0.50), but the model successfully highlights the critical, disjointed hotspot regions (highest F1-Score).*
 
 ---
